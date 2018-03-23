@@ -6,5 +6,5 @@
 ehthumbs.db
 Thumbs.db
 
-.vagrant
-.Homestead.yaml
+/.vagrant
+/Homestead.yaml
