@@ -11,7 +11,7 @@ Files are served from /public
 
 ## Config
 
-- Run cmd to genereta Homestead.yaml and change 
+- Run cmd to generate Homestead.yaml and change 
 
 ```
 php vendor/bin/homestead make
