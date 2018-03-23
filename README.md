@@ -11,12 +11,18 @@ Files are served from /public
 
 ## Config
 
-- Change path in homestead.yaml to project path on your machine
+- Run cmd to genereta Homestead.yaml and change 
 
 ```
-folders:
+php vendor/bin/homestead make
+```
+
+- In Homestead.yaml change 
+
+```
+sites:
     -
-        map: /Users/relic/Sites/web-filedump
+        map: filedump.test
 ```
 
 - Add 192.168.10.10 to /etc/hosts
